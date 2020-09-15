@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.container .navItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 20px 5px 20px 25px;
+  background-color: #0f0f4b;
+}
+
+.container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10px;
+}
+
+.container li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .fas {
+  color: #fff;
+}
+
+.container img {
+  width: 100%;
+  height: 70vh;
+}
+
+.container .mainContent {
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container .mainContent h1 {
+    font-size: 23px;
+  }
+}
+
+.container h1 {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 72px;
+}
+
+.container h6 {
+  position: absolute;
+  top: 60%;
+  left: 23%;
+  font-size: 18px;
+}
+
+.famous {
+  text-align: center;
+  font-size: 35px;
+  width: 100%;
+  background-color: gray;
+  padding: 30px 0;
+  margin-top: -7px;
+}
+
+/*media querry*/
+/* Extra small devices (phones, 600px and down) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/*# sourceMappingURL=style.css.map */
